@@ -1,0 +1,13 @@
+{
+  "name": "Rust Codespace",
+  "image": "mcr.microsoft.com/devcontainers/rust:1",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  },
+  "postCreateCommand": "cargo test",
+  "remoteUser": "vscode"
+}
